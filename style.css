@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html{
+    background: #b7c1ca;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*------------Navbar----------*/
+nav{
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+}
+.navbar-brand{
+    margin-left: 15px;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+}
+#navbarSupportedContent{
+    margin-left: 60%;
+}
+.nav-item a{
+    color: black;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+.nav-item:hover{
+    letter-spacing: 2px;
+}
+
+#packages .btn:hover{
+    background: white;
+    color: black;
+    font-weight: 500;
+}
+#packages .package p{
+    margin-right: 2%;
+    margin-right: 2%;
+}
+
+/*------------team--------------*/
+.team{
+    text-align: center;
+    position: relative;
+}
+/*----------Testimonial-------------*/
+.testimonial{
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+.c1{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.c2 button:hover{
+    background: white;
+    color: black;
+    font-weight: 500;
+}
