@@ -16,7 +16,7 @@ body{
 
 /*------------Navbar----------*/
 nav{
-    position: sticky;
+    position: fixed;
     width: 100%;
     z-index: 100;
 }
@@ -27,7 +27,7 @@ nav{
     color: black;
 }
 #navbarSupportedContent{
-    margin-left: 60%;
+    margin-left: 40%;
 }
 .nav-item a{
     color: black;
